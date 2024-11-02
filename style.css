@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box; /* Helps manage padding and borders */
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px; /* Adds a bit of padding around the edges */
+}
+
+p {
+    font-size: 18px; /* Smaller font for better readability on mobile */
+    color: white;
+    padding: 15px 0;
+    text-align: center; /* Center-aligns text */
+}
+a{
+    text-decoration: none;
+}
+
+button {
+    font-size: 16px;
+    height: 45px;
+    width: 90%;
+    max-width: 200px; /* Sets a maximum width to avoid over-stretching */
+    margin: 15px auto; /* Centers button horizontally */
+    background-color: rgba(189, 62, 55, 0.877);
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    display: block; /* Centers button in its container */
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
